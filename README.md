@@ -8,8 +8,6 @@
 
 ## 상세 설명
 
----
-
 ### STATE
 
 -   **blogList** = [{ id, title, content, category, img }]
