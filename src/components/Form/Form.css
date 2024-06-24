@@ -1,0 +1,34 @@
+.form_box .input_row + .input_row {
+    margin-top: 30px;
+}
+.form_box .input_row .label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: 700;
+}
+.form_box .input_row .input_box {
+    display: flex;
+}
+.form_box .input_row input,
+.form_box .input_row select,
+.form_box .input_row textarea {
+    display: block;
+    width: 100%;
+    height: 40px;
+    padding: 0 10px;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+}
+.form_box .input_row textarea {
+    height: 300px;
+    padding: 10px;
+    resize: none;
+}
+.form_box .form_btn_row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 10px;
+}

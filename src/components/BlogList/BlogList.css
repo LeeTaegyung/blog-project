@@ -1,0 +1,27 @@
+.blog_list {
+    border-top: 2px solid #111;
+}
+.blog_list li + li {
+    border-top: 1px solid #dbdbdb;
+}
+.blog_list li.blank {
+    padding: 100px 0;
+    text-align: center;
+    font-size: 14px;
+}
+
+.blog_list_util {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 15px;
+    padding-top: 15px;
+    border-top: 1px solid #dbdbdb;
+}
+.blog_list_util .write_btn {
+    display: block;
+    padding: 10px;
+    border: 1px solid #dbdbdb;
+    font-size: 14px;
+    border-radius: 4px;
+}

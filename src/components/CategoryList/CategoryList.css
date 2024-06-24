@@ -1,0 +1,20 @@
+.category_list {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 5px;
+    margin-bottom: 20px;
+}
+.category_btn {
+    display: block;
+    padding: 5px 10px;
+    border: 1px solid #dbdbdb;
+    font-size: 14px;
+    border-radius: 4px;
+}
+.category_btn.on {
+    border-color: #f0d158;
+    color: #fff;
+    font-weight: 600;
+    background: #f0d158;
+}

@@ -1,0 +1,23 @@
+.pagination_area {
+    margin-top: 50px;
+}
+.pagination {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+.pagination button {
+    display: block;
+    min-width: 26px;
+    padding: 2px 5px;
+    border: 1px solid #dbdbdb;
+    font-size: 14px;
+    line-height: 20px;
+    border-radius: 3px;
+}
+.pagination button.on {
+    border-color: #111;
+    color: #fff;
+    background: #111;
+}

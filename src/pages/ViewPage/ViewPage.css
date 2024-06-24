@@ -1,0 +1,41 @@
+.view_container .title {
+    margin-bottom: 15px;
+    font-size: 26px;
+    font-weight: 700;
+    text-align: center;
+}
+.view_container .post_info {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #dbdbdb;
+}
+.view_container .post_info span {
+    font-size: 15px;
+}
+.view_container .post_info .category {
+    color: #777;
+}
+.view_container .post_info .date {
+    color: #999;
+}
+.view_container .content_area {
+    min-height: 300px;
+    margin-top: 20px;
+    line-height: 1.4;
+}
+.view_container .view_util {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+    padding-top: 30px;
+    border-top: 1px solid #dbdbdb;
+    gap: 5px;
+}
+.view_container .view_util > div {
+    display: flex;
+    gap: 5px;
+}

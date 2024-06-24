@@ -10,7 +10,7 @@
 
 ### STATE
 
--   **blogList** = [{ id, title, content, category, img }]
+-   **blogList** = [{ id, title, content, date, category, img }]
 
 ### PAGE
 
